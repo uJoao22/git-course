@@ -1,0 +1,23 @@
+git init 			      	- Inicia nosso versionamento, cria o arquivo .git
+git add nameFile		      	- Adiciona ou modifica o arquivo para o sistema de versionamento
+git add .			      	- Adiciona todos os arquivos para o sistema de versionamento
+git commit -m "message" 	      	- Faz um commit, cria uma marca em sua linha do tempo
+git log 			      	- Informa todo o historico de commits, alterações, quem foi o autor, a data, qual o commit, e o que foi escrito nele, visualiza os pontos na linha do tempo.
+git status 			      	- Verifica se houveram modificações, em qual branch, informa os arquivos que form alterados, adicionados, excluidos e informa se já foi commitado ou não.
+git branch feature/nameBranch 		- Cria uma nova branch e usa o prefixo feature para dar um nome a esta branch
+git checkout feature/nameBranch 	- Permite se mover entre as branchs, sair de uma e entrar em outra, determina qual branche entrará pelo prefixo feature.
+git reset 				- Desafaz o último git add feito, remove da áre de stage.
+git master 			- Voltando para a branch Master.
+git merge feature/nameBranch 		- Fazendo um merge com a branch selecionada com a branch em que estou.
+git show numberCommit 		- Caso queira inspecionar o commit, ver todas alterações feitas naquele commit identificado pelo seu número.
+git show 				- Caso usado o comando sem o número identificador do commit, mostra os dados do último commit feito.
+git branch 			- Exibe todas as branchs criadas no projeto.
+git branch -D feature/nameBranch	- Exclui a branch determinado pelo prefixo feature.
+git remote add origin link		- Adiciona ou modifica um arquivo remoto para o sistema de versionamento GIT.
+git push -u origin branch		- Subindo os arquivos para o servidor remoto pelo nome origin usado na criação do servidor e determinando a branch que irá subir.
+git clone linkRepository		- Clona um repositorio remoto através do link
+git checkout -b nameBranch 		- Cria uma nova branch e já se move para dentro dela.
+git commit -am "message"		- Adiciona os arquivos e já commit.
+git checkout numberCommit		- Me possibilita voltar no tempo para um commit antigo.
+git pull 				- Vai até o servidor remoto e trás para o local todas as alterações.
+git push --set-upstream origin branch 	- Resolve problemas e conflitos dentro do repositorio remoto e cria a branch diretamente no origin.
